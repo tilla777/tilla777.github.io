@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* header */
+header {
+    width: 100%;
+    height: 570px;
+    background: url('./images/orange-big-images_02.jpg') no-repeat center bottom;
+}
+
+header .menu-top {
+    background: #f8f8f8;
+    padding: 7px 0;
+    box-shadow: 0 0 8px #cfc9c4;
+
+}
+
+header .menu-top nav {
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .menu-top nav ul {
+    display: flex;
+}
+
+header .menu-top nav ul li {
+    margin: 0 17px;
+}
+
+header .menu-top nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #4e4e4e;
+    transition: 500ms;
+}
+
+header .menu-top nav ul li .active {
+    color: #dd4400;
+}
+
+header .menu-top nav ul li :hover {
+    color: #dd4400;
+}
+
+/* == section == */
+section .wraper {
+    width: 1140px;
+    margin: auto;
+    padding: 50px 0 100px 0;
+    box-sizing: border-box;
+}
+
+section .wraper .about {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+section .wraper .about .item {
+    width: 255px;
+    text-align: center;
+    padding: 50px 0 26px 0;
+    box-shadow: 0 0 13px #ebded9;
+}
+
+section .wraper .about .item h3 {
+    font-weight: 700;
+    font-size: 18px;
+    color: #dd4400;
+}
+
+section .wraper .about .item .line {
+    margin: 50px 0 30px 0;
+}
+
+section .btn {
+    background: #dd4400;
+    padding: 12px 50px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    margin-top: 24px;
+    transition: 500ms;
+}
+
+section .btn:hover {
+    background: orange;
+}
+
+section .business {
+    display: flex;
+    justify-content: space-between;
+}
+
+section .business .left {
+    width: 730px;
+
+}
+
+section .business .right {
+    width: 250px;
+
+}
+
+section .business h2 {
+    font-weight: 700;
+    color: #5e5e5e;
+    font-size: 30px;
+    margin-bottom: 52px;
+}
+
+section .business .left p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #5e5e5e;
+    margin-bottom: 40px;
+}
+
+section .business .left .btn {
+    margin-top: 0;
+}
+
+section .business .right .box {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+section .business .right .box img {
+    width: 65px;
+    height: 65px;
+    margin-right: 30px;
+}
+
+section .business .right .box a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #dd4400;
+    line-height: 25px;
+}
+
+
+/* footer */
+footer {
+    background: #dd4400;
+    padding: 65px 0;
+    color: white;
+}
+
+footer .contact {
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .contact h2 {
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 22px;
+}
+
+footer .contact .tel {
+    color: white;
+    font-weight: 400;
+    font-size: 45px;
+    text-decoration: none;
+}
+
+footer .contact .left p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+footer .contact .right p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 26px;
+}
+
+footer .contact .right .mail {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+}
+/* finish */
